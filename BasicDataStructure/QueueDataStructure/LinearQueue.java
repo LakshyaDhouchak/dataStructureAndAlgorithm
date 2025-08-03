@@ -2,7 +2,13 @@ package BasicDataStructure.QueueDataStructure;
 
 import java.util.Scanner;
 /*
- * Inside this methord we have created a feature where we implement Linear Queue data structure using 
+ * Inside this methord we have created a feature where we implement Linear Queue data structure using static
+ * Array.The methord we have perform in Linear Queue
+ * 1) Enqueue() methord
+ * 2) Dequeue() methord
+ * 3) isEmpty() methord
+ * 4) peek() methord
+ * 5) Display() methord 
  */
 public class LinearQueue {
     // define the prperties

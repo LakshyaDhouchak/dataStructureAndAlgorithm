@@ -1,6 +1,7 @@
 package Main;
 import java.util.Scanner;
 
+import BasicDataStructure.QueueDataStructure.CircularQueue;
 //import BasicDataStructure.LinkedListDataStructure.CircularLinkedList;
 import BasicDataStructure.QueueDataStructure.LinearQueue;
 //import BasicDataStructure.LinkedListDataStructure.DoubleLinkedList;
@@ -15,11 +16,12 @@ public class App {
         // calling the Scanner
         Scanner input = new Scanner(System.in);
         // calling the StaticArray class
-        LinearQueue a =  new LinearQueue(5);
+        CircularQueue a =  new CircularQueue(5);
         a.Enqueue();
         a.display();
-        a.DeQueue();
+        a.dequeue();
         a.display();
+        a.Enqueue();
         a.peek();
         a.display();
         a.isEmpty();

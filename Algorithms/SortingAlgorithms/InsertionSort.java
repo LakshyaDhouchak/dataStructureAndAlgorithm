@@ -1,6 +1,5 @@
 package Algorithms.SortingAlgorithms;
 
-import java.util.Scanner;
 /*
  * Inside this code i have  use a static array list to showcase how Insertion sort code work on array. And at
  * last i have printed the final array
